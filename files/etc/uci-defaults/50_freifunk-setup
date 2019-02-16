@@ -3,7 +3,7 @@
 # Setup the system for the initial Freifunk configuration.
 # This script is only run once on first boot and is deleted afterwards.
 
-exec >/root/freifunk_setup.log 2>&1
+exec >>/root/freifunk_setup.log 2>&1
 
 . /lib/functions.sh
 
